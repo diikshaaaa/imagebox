@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
    <head>
-   <style>
+    <title>image box</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
         #first {
             width: 500px;
             height: 500px;
             background: blue;
-            overflow: hidden;
+            margin-left: auto;
+            margin-right: auto;
         }
         #first .second {
             position: absolute;
@@ -29,7 +32,7 @@
             background-color: black;
         }
         #first .fourth {
-            position: relative;
+            position: absolute;
             width: 300px;
             height: 50px;
             margin-top: 150px;
@@ -39,7 +42,7 @@
             background-color: cornflowerblue; 
         }
         #first .fifth {
-            position: relative;
+            position: absolute;
             width: 250px;
             height: 150px;
             margin-top: 0;
@@ -49,7 +52,7 @@
             background-color: crimson;
         }
         #first .sixth {
-            position: relative;
+            position: absolute;
             width: 300px;
             height: 300px;
             margin-top: 200px;
@@ -57,18 +60,17 @@
             margin-left: 200px;
             margin-right: 0;
             background-color: darkgreen;
-        }
-   </style>
+        } 
+    </style>
 
    </head>
    <body>
         <div id="first">
-            <div class="second"><img src="image2.jpg"></div>
-            <div class="third"><img src="image3.jpg"></div>
-            <div class="fourth"><img src="image4.jpg"></div>
-            <div class="fifth"><img src="image5.jpg"></div>
-            <div class="sixth"><img src="image6.jpg"></div>
+            <div class="second"></div>
+            <div class="third"></div>
+            <div class="fourth"></div>
+            <div class="fifth img"></div>
+            <div class="sixth"></div>
         </div>
-        
    </body>
 </html>
